@@ -1,0 +1,603 @@
+{
+  "personal": {
+    "name": "Siddhi Gandhi",
+    "title": "Full Stack Developer & Data Engineer",
+    "email": "siddhigandhi53@gmail.com",
+    "phone": "+91 8010945602",
+    "location": "Ratnagiri / Kolhapur, Maharashtra, India",
+    "linkedin": "https://www.linkedin.com/in/siddhi-gandhi-0866b7289/",
+    "github": "https://github.com/Siddhigandhi854/",
+    "leetcode": "https://leetcode.com/u/Siddhigandhi/",
+    "mslearn": "https://learn.microsoft.com/en-us/users/SiddhiGandhi-3589",
+    "credly": "https://www.credly.com/users/siddhi-gandhi.6cb1ee83/badges/credly",
+    "summary": "Computer Science undergraduate specializing in Artificial Intelligence and Machine Learning with strong hands-on experience in full-stack web development and machine learning projects. Proficient in Python, JavaScript, and database systems with practical exposure to building scalable applications and solving real-world technical problems."
+  },
+  "education": [
+    {
+      "institution": "D. Y. Patil College of Engineering and Technology, Kolhapur",
+      "degree": "B.Tech in Computer Science Engineering (AI & ML)",
+      "minor": "Electronics and Telecommunication",
+      "gpa": "9.1",
+      "period": "2023 – Present"
+    },
+    {
+      "institution": "Abhyankar Kulkarni Jr. College, Ratnagiri",
+      "degree": "Higher Secondary Education (12th Grade)",
+      "percentage": "66%",
+      "period": "2021 – 2023"
+    },
+    {
+      "institution": "Prataprav mane Highschool Bhambed",
+      "degree": "Secondary School Certificate (10th Grade)",
+      "percentage": "94.80%",
+      "period": "2019 – 2021"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming",
+      "items": ["Python", "Java"]
+    },
+    {
+      "category": "Web Development",
+      "items": ["HTML", "CSS", "JavaScript", "React.js", "MERN Stack"]
+    },
+    {
+      "category": "Databases",
+      "items": ["SQL", "MySQL", "MongoDB"]
+    },
+    {
+      "category": "Cloud",
+      "items": ["Azure", "AWS"]
+    },
+    {
+      "category": "Data Engineering",
+      "items": ["Fabric Data Engineer", "AWS Data Engineer", "Data Pipelines", "Data Warehouse", "DevOps"]
+    },
+    {
+      "category": "Data Analytics",
+      "items": ["Power BI", "Tableau", "Excel", "Python"]
+    },
+    {
+      "category": "Cyber Security",
+      "items": ["Cyber Security Workshop Cert", "Ethical Hacking", "Network Security", "Certified LLM Security Professional (CLLMSP)"]
+    },
+    {
+      "category": "AI & ML",
+      "items": ["Python", "NumPy", "Pandas", "Scikit-Learn", "TensorFlow", "Matplotlib", "Generative AI", "Agentic AI"]
+    },
+    {
+      "category": "Tools",
+      "items": ["Git", "GitHub", "VS Code", "Netlify", "Render", "Vercel", "Railway"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "mess-management-system",
+      "title": "Mess Management System",
+      "shortDescription": "A robust MERN web application with database-driven CRUD operations, automated billing calculations, and secure role-based access control to modernize student meal tracking.",
+      "description": "Developed a comprehensive, full-stack web application designed to streamline student mess operations. The system automates meal counting, records daily transactions, and generates transparent billing sheets, replacing error-prone manual registers.",
+      "image": "/projects/mess_management.png",
+      "techStack": ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "JSON Web Tokens", "REST API", "Mongoose"],
+      "githubUrl": "https://github.com/Siddhigandhi854/",
+      "liveUrl": "https://mess-management-system-040b.onrender.com/",
+      "problemStatement": [
+        "Inefficient Manual Registers: Mess staff track attendance on paper log sheets, which are error-prone, tedious, and easy to lose.",
+        "Tedious Monthly Billing: Administrative staff spend hours compiling individual student bills and calculating rebates manually at month-end.",
+        "Food Waste Accumulation: Kitchen staff cook fixed quantities daily because they lack a reliable channel to track student leaves or meal cancellations."
+      ],
+      "objectives": [
+        "Digitize Student Check-Ins: Allow students to schedule or cancel meals using an interactive calendar dashboard.",
+        "Automate Billing Routines: Compute monthly invoices and dynamic attendance-based rebate adjustments on the server side.",
+        "Role-Based Dashboards: Implement dedicated portals for Students, Kitchen Staff (daily count display), and Administrators (billing sheets)."
+      ],
+      "features": [
+        "Dynamic meal booking and cancellation scheduling",
+        "Role-based authentication for admins, mess staff, and students",
+        "Automated monthly bill calculation based on consumed meals",
+        "Real-time dashboard displaying active daily meal counts for staff preparation planning"
+      ],
+      "architecture": "Features a standard 3-tier client-server structure: a responsive React single-page frontend, a stateless Express.js REST API server handling business logic, and a MongoDB database cluster storing user documents, attendance logs, and transaction ledgers.",
+      "improvements": [
+        "Implement QR-code based instant check-in at the counter",
+        "Integrate UPI payment gateways for online bill payments",
+        "Send automatic email/WhatsApp alerts for payment reminders"
+      ]
+    },
+    {
+      "id": "augmented-reality-herbal-garden",
+      "title": "AR Based Herbal Garden",
+      "shortDescription": "An immersive Augmented Reality educational mobile application built with Unity and Vuforia for interactive, 3D botanical marker tracking and medicinal plant visualization.",
+      "description": "Built an interactive AR application aiming to digitize botanical learning. Users point their mobile camera at botanical markers to render 3D assets of medicinal plants with interactive textual and audio descriptions.",
+      "image": "/projects/ar_garden.png",
+      "techStack": ["Unity 3D", "Vuforia Engine", "C# Scripting", "ARCore", "3D Rendering", "Mobile UI Design"],
+      "githubUrl": "https://github.com/Siddhigandhi854/",
+      "liveUrl": "",
+      "problemStatement": [
+        "Passive Botanical Learning: Traditional textbook illustrations and flat text descriptions fail to convey the complex 3D structures and growth metrics of medicinal herbs.",
+        "Lack of Interactive Materials: Students struggle to retain plant properties and medical uses without engaging visual media.",
+        "Physical Access Limits: Students cannot always visit remote or seasonal botanical gardens to study rare herbs in person."
+      ],
+      "objectives": [
+        "Marker-Based 3D Tracking: Render interactive 3D digital plant models over physical markers using mobile cameras.",
+        "Accessible Education Guides: Display scientific classifications, harvesting guidelines, and medical uses on context-aware cards.",
+        "Immersive Gestures: Support 3D scale, rotation, and audio voiceover translations to enhance engagement and accessibility."
+      ],
+      "features": [
+        "Marker-based 3D botanical asset rendering with high fidelity",
+        "Interactive UI showing scientific names, medicinal properties, and harvesting guidelines",
+        "Pinch-to-zoom and 360-degree rotation gestures to inspect plant structures",
+        "Audio voiceover describing plants for accessibility"
+      ],
+      "architecture": "Built with Unity Engine using C# scripts for animation lifecycle and Vuforia SDK for image targeting and feature point tracking. Deployed as a standalone Android APK.",
+      "improvements": [
+        "Incorporate markerless tracking (ARCore plane detection) to view plants on any surface",
+        "Add a 3D growth simulation slider showing the plant from seed to maturity",
+        "Incorporate an AI camera model to identify plants in the wild"
+      ]
+    },
+    {
+      "id": "fresh-pick",
+      "title": "Fresh Pick",
+      "shortDescription": "A regional agricultural marketplace designed with Node.js and MySQL to connect local farmers directly with urban consumers for fresh, fair-trade produce.",
+      "description": "Designed a web marketplace connecting regional farmers directly with consumers. It bypasses middlemen to ensure fair pricing for agricultural products while promoting fresh, local sourcing.",
+      "image": "/projects/fresh_pick.png",
+      "techStack": ["HTML5", "CSS3", "JavaScript (ES6)", "Node.js", "MySQL", "Relational Database Design", "Express.js"],
+      "githubUrl": "",
+      "liveUrl": "",
+      "problemStatement": [
+        "Middlemen Exploitation: Local farmers receive low margins while urban buyers pay high prices due to broker commissions.",
+        "Lack of Regional Marketplaces: Consumers cannot easily discover nearby farms producing organic crops or fresh dairy.",
+        "Complex Listing Workflows: Farmers require a simplified, mobile-friendly interface optimized for rural network connectivity."
+      ],
+      "objectives": [
+        "Peer-to-Peer Catalog: Connect local producers directly to urban consumers to ensure fair-trade pricing.",
+        "Farmer-Centric Portals: Build straightforward forms for farmers to list crops, update pricing, and catalog inventories.",
+        "Location-Aware Search: Allow consumers to browse agricultural produce based on regional proximity."
+      ],
+      "features": [
+        "Farmers dashboard to list crops, update quantities, and set pricing",
+        "Location-based product search and filter system for consumers",
+        "Secure checkout cart flow with receipt generation",
+        "Responsive, easy-to-use layouts optimized for rural mobile web networks"
+      ],
+      "architecture": "Constructed with HTML/CSS/JS frontend, powered by a Node.js web server. Uses a MySQL relational database to map products to specific farmers, and manage customer orders securely.",
+      "improvements": [
+        "Incorporate SMS-based product updates for farmers without internet connections",
+        "Integrate map routes showing logistics and delivery status in real time",
+        "Include AI price analysis matching product pricing to market averages"
+      ]
+    },
+    {
+      "id": "foodies-heaven",
+      "title": "Foodie's Heaven",
+      "shortDescription": "A highly responsive, stylish cafe and restaurant website featuring rich CSS transitions, custom menu filtering, and interactive client-side reservation modules.",
+      "description": "Developed a front-end restaurant/cafe site characterized by smooth styling and intuitive user paths. It features interactive menus, beautiful imagery galleries, and a client-side booking system.",
+      "image": "/projects/foodies_heaven.png",
+      "techStack": ["HTML5", "CSS3", "JavaScript (ES6)", "Responsive Design", "Flexbox & Grid Layouts", "Web Animations"],
+      "githubUrl": "",
+      "liveUrl": "https://siddhigandhi854.github.io/Foodies-Heaven/",
+      "problemStatement": [
+        "Static Menu Limitations: Traditional cafes rely on static PDF lists that cannot filter ingredients or update prices dynamically.",
+        "Inefficient Table Reservations: Customers face hurdles booking tables without direct web tools or instant form confirmation.",
+        "Unresponsive Design: Many food landing pages fail to render menu layouts cleanly across mobile, tablet, and desktop viewports."
+      ],
+      "objectives": [
+        "Interactive Menu Discovery: Develop filterable category toggles and smooth CSS hover previews.",
+        "Client-Side Booking Form: Implement responsive form modules validating user input instantly.",
+        "Aesthetic Visual Layouts: Style elegant typography, custom menu grids, and glassmorphic navigation bars."
+      ],
+      "features": [
+        "Visual menu categories with pricing toggles",
+        "Interactive, animated gallery of the cafe's interiors",
+        "Smooth CSS transitions and responsive grid adjustments for tablets and phones",
+        "Client-side verified table booking form"
+      ],
+      "architecture": "Static front-end application built with semantic HTML5 markup, layout architecture using Flexbox and Grid, and custom JavaScript handling active menu states and reservations.",
+      "improvements": [
+        "Develop a node/express backend to save reservations to a database",
+        "Integrate interactive map APIs showing branch locations",
+        "Support online pre-ordering and customized menus"
+      ]
+    },
+    {
+      "id": "supermarket-transaction-analysis",
+      "title": "Supermarket Transaction Analysis",
+      "shortDescription": "A Machine Learning and association rule data mining pipeline implementing Apriori and FP-Growth algorithms in Python to extract product correlation insights.",
+      "description": "Designed a data analysis project implementing machine learning algorithms to study customer shopping records. The model uncovers frequent product combinations, allowing store owners to optimize product placements.",
+      "image": "/projects/transaction_analysis.png",
+      "techStack": ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Mlxtend", "Apriori Algorithm", "FP-Growth", "Data Mining"],
+      "githubUrl": "",
+      "liveUrl": "",
+      "problemStatement": [
+        "Missed Cross-Selling Trends: Store managers fail to analyze transaction records, leading to suboptimal product shelving layouts.",
+        "Scale Obstacles: Raw checkout transaction streams are massive, making correlation analysis using spreadsheets impossible.",
+        "Unquantified Buying Cycles: Decisions on discounts or bundled offers are made without solid mathematical metrics like Support or Lift."
+      ],
+      "objectives": [
+        "Association Rules Pipeline: Implement Apriori and FP-Growth models to extract meaningful product combinations.",
+        "Quantify Correlation Metrics: Calculate mathematical values for Support, Confidence, and Lift across checkout streams.",
+        "Data Visualizations: Plot heatmaps and cluster charts showing co-purchase correlation trends."
+      ],
+      "features": [
+        "Association rule mining using the Apriori and FP-Growth algorithms",
+        "Support, Confidence, and Lift calculations for all transaction items",
+        "Data cleaning scripts filtering outlier purchases and missing records",
+        "Interactive correlation heatmaps plotting product co-purchase trends"
+      ],
+      "architecture": "Python-based Jupyter scripting workflow. Data is processed using Pandas/NumPy, modeled with Mlxtend library, and results are plotted using Matplotlib/Seaborn.",
+      "improvements": [
+        "Build a web-based dashboard using Streamlit to upload transaction logs",
+        "Develop a time-series forecasting model predicting monthly demand for items",
+        "Implement clustering algorithms (K-Means) to group customers by shopping value"
+      ]
+    },
+    {
+      "id": "ats-resume-analyzer",
+      "title": "Intelligent Resume Analyzer",
+      "shortDescription": "A Machine Learning & NLP-powered academic project that analyzes resumes, predicts job roles, calculates ATS compatibility scores, detects skill gaps, and recommends certifications.",
+      "description": "Developed an advanced Machine Learning and NLP system designed to tackle recruitment screening challenges. The application extracts structure and text from PDF resumes, employs NLP models to classify candidate suitability, computes semantic similarity matches against target job descriptions, identifies skill gaps, and provides custom career improvement recommendations.",
+      "image": "/projects/resume_analyzer.png",
+      "techStack": ["Python", "Machine Learning", "NLP", "Streamlit", "Google Gemini Pro API", "PyPDF2", "NLTK", "TF-IDF Vectorization"],
+      "githubUrl": "https://github.com/Siddhigandhi854/",
+      "liveUrl": "https://ats-score-checker-oagh.onrender.com/",
+      "problemStatement": [
+        "Slow Manual Screening: Recruiters spend hours on repetitive resume reviews without intelligent prioritization.",
+        "Unfair ATS Rejections: Rule-based legacy systems discard strong candidates over minor formatting or keyword gaps.",
+        "Zero Feedback: Candidates receive no actionable guidance on how to strengthen their resumes.",
+        "Unknown Skill Gaps: There is no systematic way to identify what skills a candidate is missing for a target role."
+      ],
+      "objectives": [
+        "Automate Evaluation: Replace manual screening with an intelligent, ML-driven resume analyzer.",
+        "Predict Job Roles: Use supervised ML to match resumes to the most suitable job categories.",
+        "Calculate ATS Score: Generate a structured, weighted score reflecting resume quality and relevance.",
+        "Detect Skill Gaps: Identify missing skills and recommend specific certifications or courses."
+      ],
+      "features": [
+        "PDF text extraction and structure scanning using PyPDF2",
+        "Keyword extraction and missing keyword highlighting using Gemini Pro models",
+        "ATS compliance evaluation (formatting, layout, and language checks)",
+        "Automated suggestions for writing bullet points aligned with job requirements"
+      ],
+      "architecture": "Python script using Streamlit for an interactive dashboard. The backend processes the uploaded PDF, feeds the text block alongside prompt engineering parameters to the Gemini API, and parses the output JSON.",
+      "improvements": [
+        "Support DOCX formats alongside standard PDFs",
+        "Implement bullet point auto-rewriters to match specific skills",
+        "Build a dashboard history showing past resumes and score progression"
+      ]
+    },
+    {
+      "id": "ai-resume-builder",
+      "title": "AI Resume Builder",
+      "shortDescription": "A comprehensive MERN stack platform featuring custom templates, AI description auto-fill, and live PDFKit compilation driven by OpenAI API services.",
+      "description": "Built a comprehensive, AI-powered system that guides job seekers through resume generation, live previewing, cover letter crafting, and score optimization in one unified interface.",
+      "image": "/projects/resume_builder.png",
+      "techStack": ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "OpenAI API", "PDFKit Compilation", "MERN Stack"],
+      "githubUrl": "https://github.com/Siddhigandhi854/",
+      "liveUrl": "https://ai-resume-frontend-c1mf.onrender.com/",
+      "problemStatement": [
+        "Layout Obstacles: Job seekers spend hours alignment-tweaking traditional documents, leading to layout inconsistencies.",
+        "Resume Writer Block: Describing professional achievements using active keywords and industry vocabulary is challenging.",
+        "Broken PDF Generation: Form-to-file conversions often break visual layout ratios, resulting in messy multiple-page documents."
+      ],
+      "objectives": [
+        "WYSIWYG Real-Time Builder: Build an interactive editor showing instantaneous template adjustments.",
+        "Generative Writing Assistant: Integrate OpenAI to draft context-aware roles, responsibilities, and cover letters.",
+        "High-Fidelity PDF Outputs: Compile perfect PDF byte streams using server-side PDFKit engines."
+      ],
+      "features": [
+        "WYSWYG real-time resume template generator",
+        "AI text generator auto-filling job roles and responsibilities",
+        "ATS score analyzer scanning keywords and structure against job descriptions",
+        "Integrated AI cover letter generator matching the resume's tone"
+      ],
+      "architecture": "Full-stack MERN setup. The React frontend supports dynamic forms and custom previews. The Express API manages user documents in MongoDB, routes requests to LLM APIs, and compiles clean PDF bytes using PDFKit.",
+      "improvements": [
+        "Integrate LinkedIn scraping to create profiles with one click",
+        "Implement custom, professionally designed tailwind layouts",
+        "Add mock interview preparation prompts based on the built resume"
+      ]
+    },
+    {
+      "id": "movie-recommendation-system",
+      "title": "Intelligent Movie Recommendation System",
+      "shortDescription": "An academic Machine Learning system utilizing content-based and collaborative filtering models to recommend personalized movies based on user profiles and metadata.",
+      "description": "Designed and developed an academic Movie Recommendation System implementing ML models (Cosine Similarity, KNN, and SVD matrix factorization). The system offers content-based suggestions by scanning movie genres, keywords, and casts, combined with user rating correlations to solve cold-start and recommendation accuracy challenges.",
+      "image": "/projects/movie_recommender.png",
+      "techStack": ["Python", "Scikit-Learn", "Pandas", "NumPy", "Streamlit", "Collaborative Filtering", "Content-Based Filtering", "SVD Matrix Factorization", "Cosine Similarity"],
+      "githubUrl": "",
+      "liveUrl": "",
+      "problemStatement": [
+        "Choice Overload: Users encounter decision fatigue when browsing vast, unstructured streaming catalogs.",
+        "Cold-Start Bottlenecks: Basic recommenders fail to suggest matches for new users with zero rating histories.",
+        "Ineffective Tag Matching: Standard keyword search algorithms fail to compute deeper thematic correlations between films."
+      ],
+      "objectives": [
+        "Hybrid Model Pipeline: Integrate content-based metadata mapping with SVD collaborative filtering calculations.",
+        "Minimize Search Delay: Optimize similarity matrix computations to return recommendation arrays under 100ms.",
+        "Streamlined Interface: Develop an interactive Streamlit application with adjustable user feedback sliders."
+      ],
+      "features": [
+        "Hybrid filtering: Content-based (metadata correlation) + Collaborative (user rating matrix)",
+        "Real-time recommendation computation based on active slider scores",
+        "Interactive web UI built with Streamlit for dynamic catalog searching",
+        "Visualization charts comparing popularity metrics and user rating densities"
+      ],
+      "architecture": "Python Streamlit app utilizing Pandas for structured dataset preprocessing. ML models calculate pairwise similarity matrices, with data serialization to run queries with sub-second latency.",
+      "improvements": [
+        "Integrate TMDB API fetches to show updated movie posters and trailers",
+        "Deploy deep-learning based Autoencoders for collaborative user-rating matrices",
+        "Implement real-time session tracking for guest recommendations"
+      ]
+    },
+    {
+      "id": "student-management-system",
+      "title": "Student Management System",
+      "shortDescription": "A secure, desktop-based administration database system built with Python and MySQL to handle student enrollments, grading database rules, and index optimizations.",
+      "description": "Developed an academic Student Management System powered by a relational MySQL database. Designed a normalized schema (3NF) to eliminate redundancy, utilizing stored procedures, triggers for automated grade calculation, and indexes for query speedups. Integrated Python Tkinter GUI to enable administrative actions.",
+      "image": "/projects/student_database.png",
+      "techStack": ["MySQL", "SQL Database", "Python", "Tkinter GUI", "Database Normalization (3NF)", "Relational Schema", "Triggers & Procedures"],
+      "githubUrl": "",
+      "liveUrl": "",
+      "problemStatement": [
+        "Outdated Record Storage: Administrative files stored in paper sheets or flat sheets lead to data corruption.",
+        "Anomalous Schema Models: Un-normalized data structures cause insert, update, and delete integrity issues.",
+        "Manual GPA Calculations: Staff spend days calculating individual grades and averages at the end of semesters."
+      ],
+      "objectives": [
+        "3NF Normalization: Establish a structured database layout to completely eliminate duplicate information.",
+        "Database-Level Automation: Code SQL triggers and procedures to instantly process student GPAs upon grading changes.",
+        "Desktop Administration Client: Connect a verified Tkinter GUI to enable secure database query access."
+      ],
+      "features": [
+        "Secure administrative login with database-verified credentials",
+        "Student CRUD operations: enrollments, updates, grading updates, and fee logging",
+        "MySQL Database triggers automating final GPA / grades calculation upon score inserts",
+        "Attendance sheets generation and automated warnings for low attendance thresholds"
+      ],
+      "architecture": "Desktop client application designed in Python using the Tkinter library for the graphical interface and the mysql-connector-python package to interact securely with a hosted MySQL relational database instance.",
+      "improvements": [
+        "Migrate the Tkinter desktop GUI to a modern React-based web dashboard",
+        "Enable multi-role portals (separate dashboards for Students, Faculty, and Admins)",
+        "Implement secure PDF grade-report card auto-generation and email dispatch"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Microsoft Certified: Azure Fundamentals (AZ-900)",
+      "category": "Microsoft",
+      "issuer": "Microsoft",
+      "date": "2025",
+      "link": "https://learn.microsoft.com/en-us/users/SiddhiGandhi-3589",
+      "image": "/certs/azure_fundamentals.png",
+      "description": "Validates foundational knowledge of cloud concepts, core Azure services, security, privacy, compliance, and Azure pricing and support."
+    },
+    {
+      "name": "FutureSkills Prime: Experiential Learning (NOS SSC/N8149)",
+      "category": "Data Engineering",
+      "issuer": "Nasscom",
+      "date": "2026",
+      "link": "https://learn.microsoft.com/en-us/users/SiddhiGandhi-3589",
+      "image": "/certs/futureskills_experiential.png",
+      "description": "Demonstrates hands-on engineering competencies in structuring data processing workflows, cloud integration, and enterprise pipeline management."
+    },
+    {
+      "name": "Certified LLM Security Professional (CLLMSP)",
+      "category": "Cyber Security",
+      "issuer": "Red Team Leaders",
+      "date": "2026",
+      "link": "https://courses.redteamleaders.com/exam-completion/3c85e57c3228cd9e",
+      "image": "/certs/cllmsp.png",
+      "description": "Covers prompt injection defenses, model jailbreaks, data leakage prevention, and secure design patterns for Large Language Model integrations."
+    },
+    {
+      "name": "Cisco Networking Academy: Data Analytics Essentials",
+      "category": "Data Engineering",
+      "issuer": "Cisco Networking Academy",
+      "date": "2026",
+      "link": "",
+      "image": "/certs/cisco_data.png",
+      "description": "Focuses on foundational data analytics, statistical distributions, data cleaning, and creating actionable insight visualizations."
+    },
+    {
+      "name": "IBM SkillsBuild: Artificial Intelligence Fundamentals",
+      "category": "AI & ML",
+      "issuer": "IBM SkillsBuild",
+      "date": "2026",
+      "link": "https://www.credly.com/badges/211e369d-09fe-498d-a9ad-74d9aee03cdf",
+      "image": "/certs/ibm_ai_fundamentals.png",
+      "description": "Introduction to AI frameworks, deep learning, NLP, machine reasoning, and the ethical considerations in automated systems."
+    },
+    {
+      "name": "D. Y. Patil CSE-AIML: Poster Presentation Competition 2K24",
+      "category": "AI & ML",
+      "issuer": "D. Y. Patil College of Engineering & Technology",
+      "date": "2024",
+      "link": "",
+      "image": "/certs/dyp_poster.png",
+      "description": "Evaluated on academic research, engineering innovation, and oral presentation for artificial intelligence and machine learning projects."
+    },
+    {
+      "name": "IBM SkillsBuild: Unleashing the Power of AI Agents",
+      "category": "AI & ML",
+      "issuer": "IBM",
+      "date": "2026",
+      "link": "https://www.credly.com/users/siddhi-gandhi.6cb1ee83/badges/credly",
+      "image": "/certs/ibm_ai_agents.png",
+      "description": "Covers design patterns for autonomous agents, tool use, prompt chaining, reasoning patterns, and agentic loop evaluations."
+    },
+    {
+      "name": "Microsoft: Optimize and Extend Microsoft 365 Copilot",
+      "category": "Microsoft",
+      "issuer": "Microsoft",
+      "date": "2026",
+      "link": "https://learn.microsoft.com/en-us/users/SiddhiGandhi-3589",
+      "image": "/certs/m365_copilot.png",
+      "description": "Covers copilot architecture, extendability with plugins, grounding data securely, and optimizing semantic search index patterns."
+    },
+    {
+      "name": "ISRO START: Space Science and Technology Awareness Training",
+      "category": "AI & ML",
+      "issuer": "Indian Space Research Organisation (ISRO)",
+      "date": "2026",
+      "link": "https://isrolms.iirs.gov.in/mod/customcert/verify_certificate.php",
+      "image": "/certs/isro_start.jpg",
+      "description": "Introductory space training covering planetary science, remote sensing, satellite instrumentation, and celestial data analysis."
+    },
+    {
+      "name": "FutureSkills Prime: Digital Application Fundamentals (STEM)",
+      "category": "AI & ML",
+      "issuer": "Nasscom",
+      "date": "2026",
+      "link": "https://learn.microsoft.com/en-us/users/SiddhiGandhi-3589",
+      "image": "/certs/futureskills_stem.png",
+      "description": "Validates STEM technical foundations, logic design, object-oriented concepts, and basic computational models."
+    },
+    {
+      "name": "NVIDIA: Getting Started with CUDA C/C++",
+      "category": "NVIDIA",
+      "issuer": "NVIDIA Deep Learning Institute",
+      "date": "2024",
+      "link": "https://www.credly.com/users/siddhi-gandhi.6cb1ee83/badges/credly",
+      "image": "/certs/cuda_cpp.png",
+      "description": "Focuses on accelerating C/C++ applications on GPUs, managing memory transfers, configuring execution grids, and writing parallel kernels."
+    },
+    {
+      "name": "NVIDIA: Getting Started with CUDA Python",
+      "category": "NVIDIA",
+      "issuer": "NVIDIA Deep Learning Institute",
+      "date": "2024",
+      "link": "https://www.credly.com/users/siddhi-gandhi.6cb1ee83/badges/credly",
+      "image": "/certs/cuda_python.png",
+      "description": "Introduction to GPU-accelerated computing in Python using Numba compiler to parallelize custom kernels and utilize CUDA libraries."
+    },
+    {
+      "name": "Microsoft Power Platform Fundamentals (PL-900)",
+      "category": "Microsoft",
+      "issuer": "Microsoft",
+      "date": "2024",
+      "link": "https://learn.microsoft.com/en-us/users/SiddhiGandhi-3589",
+      "image": "/certs/power_platform.png",
+      "description": "Covers business value and core capabilities of Power Platform: Power Apps, Power Automate, Power BI, and Power Virtual Agents."
+    },
+    {
+      "name": "Fabric Data Engineer Associate (DP-700)",
+      "category": "Data Engineering",
+      "issuer": "Microsoft",
+      "date": "2024",
+      "link": "https://learn.microsoft.com/en-us/users/SiddhiGandhi-3589",
+      "image": "/certs/fabric_data.png",
+      "description": "Covers loading, transforming, and analyzing data using Microsoft Fabric data lakes, warehouses, pipelines, dataflows, and Lakehouses."
+    },
+    {
+      "name": "Cisco: Introduction to Cybersecurity",
+      "category": "Cyber Security",
+      "issuer": "Cisco Networking Academy",
+      "date": "2025",
+      "link": "",
+      "image": "/certs/cisco_cybersecurity.png",
+      "description": "Foundational training in cybersecurity threats, networks, basic defense mechanisms, and digital safety workflows."
+    },
+    {
+      "name": "Google: Google AI Essentials",
+      "category": "AI & ML",
+      "issuer": "Google",
+      "date": "2025",
+      "link": "https://coursera.org/verify/JUADRQUNAHAO",
+      "image": "/certs/google_ai_essentials.png",
+      "description": "Covers generative AI tools, prompt engineering techniques, productivity enhancement, and ethical practices in artificial intelligence."
+    },
+    {
+      "name": "AWS Academy Graduate - Data Engineering",
+      "category": "AWS",
+      "issuer": "AWS Academy",
+      "date": "2025",
+      "link": "https://www.credly.com/go/AfveV4v9",
+      "image": "/certs/aws_data_engineering_badge.png",
+      "description": "Validates cloud data engineering skills, including data ingestion, automation, and warehousing services on AWS."
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Rank 8 in NVIDIA GPU Codethon",
+      "date": "2024",
+      "description": "Ranked 8th nationally in a competitive GPU programming challenge. Developed accelerated algorithms using CUDA C/C++ to optimize parallel computations.",
+      "image": "/achievements/nvidia_codethon_cert.png"
+    },
+    {
+      "title": "550+ Solved Questions & 500 Days Streak on LeetCode",
+      "date": "2026",
+      "description": "Solved 558 coding challenges (including 103 Hard and 318 Medium problems) on LeetCode. Achieved a top global rank of 155,430 and earned the prestigious 500 Days Badge for continuous daily submissions.",
+      "image": "/achievements/leetcode_stats.png"
+    },
+    {
+      "title": "Smart India Hackathon 2024 Participant",
+      "date": "2024",
+      "description": "Competed in the grand finale, collaborating to build an innovative solution for national problem statements addressing citizen needs."
+    },
+    {
+      "title": "Participant in 24-Hour Great Ninja Hackathon",
+      "date": "2024",
+      "description": "Designed and coded a full working prototype in a high-pressure 24-hour hackathon, focusing on software usability and system architecture."
+    }
+  ],
+  "internships": [
+    {
+      "role": "Google Cloud Generative AI Intern",
+      "company": "EduSkills / Google Cloud Academy",
+      "period": "Oct 2024 – Dec 2024",
+      "description": "Explored Generative AI concepts, Large Language Models (LLMs), prompt engineering, and building semantic reasoning agents using Google Cloud Vertex AI services.",
+      "image": ""
+    },
+    {
+      "role": "AWS Cloud Intern",
+      "company": "EduSkills / AWS Academy",
+      "period": "Aug 2024 – Oct 2024",
+      "description": "Trained in cloud infrastructure concepts including compute instances (EC2), virtual networks (VPC), secure access controls (IAM), and file storage systems (S3).",
+      "image": "/certs/aws_cloud_internship.png"
+    },
+    {
+      "role": "AWS Data Engineering Intern",
+      "company": "Nasscom / FutureSkills Prime",
+      "period": "Jan 2026 – Feb 2026",
+      "description": "Completed experiential learning focused on building secure AWS data pipelines, structuring ETL flows, database integrations, and warehousing configurations.",
+      "image": "/certs/aws_data_engineering_internship.png"
+    },
+    {
+      "role": "Google AI-ML Intern",
+      "company": "EduSkills / Google for Developers",
+      "period": "Dec 2024 – Feb 2025",
+      "description": "Acquired hands-on experience in training machine learning models for regression, classification, and clustering using popular Python libraries like TensorFlow and Scikit-Learn.",
+      "image": "/certs/google_ai_ml_internship.png"
+    },
+    {
+      "role": "MERN Full Stack Development Intern",
+      "company": "EduSkills Academy",
+      "period": "Jan 2025 – Mar 2025",
+      "description": "Developed full-stack database-driven web applications using React.js, Node.js, Express, and MongoDB. Implemented secure user authentication and dashboard functionalities.",
+      "image": "/certs/mern_full_stack_internship.png"
+    },
+    {
+      "role": "Artificial Intelligence & Data Analytics Intern",
+      "company": "AICTE / Shell / Edunet Foundation",
+      "period": "Jan 2025 – Feb 2025",
+      "description": "Completed a 4-week virtual internship on AI and Data Analytics focusing on Green Skills under the Skills4Future program. Focused on predictive analysis and sustainable tech.",
+      "image": "/certs/shell_ai_data_analytics.png"
+    },
+    {
+      "role": "Artificial Intelligence & Machine Learning Intern",
+      "company": "IBM SkillsBuild / AICTE / Edunet Foundation",
+      "period": "Jan 2026 – Feb 2026",
+      "description": "Completed a 6-week virtual training internship in AI & ML. Built, optimized, and evaluated machine learning classifiers and predictive data models.",
+      "image": "/certs/ibm_ai_ml_internship.png"
+    },
+    {
+      "role": "AI & ML Intern (6 Months)",
+      "company": "Sure Trust, Madhya Pradesh",
+      "period": "6 Months",
+      "description": "Gained extensive industry-standard training in artificial intelligence. Developed a machine learning project, managing dataset preparation, preprocessing, modeling, and evaluation.",
+      "image": "/certs/sure_trust_internship.png"
+    }
+  ]
+}
