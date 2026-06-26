@@ -18,7 +18,8 @@ export default function Projects() {
     "ats-resume-analyzer": "from-cyan-600/10 to-indigo-500/10",
     "ai-resume-builder": "from-indigo-600/10 to-purple-500/10",
     "movie-recommendation-system": "from-rose-600/10 to-amber-500/10",
-    "student-management-system": "from-blue-600/10 to-indigo-500/10"
+    "student-management-system": "from-blue-600/10 to-indigo-500/10",
+    "ai-financial-advisor": "from-emerald-600/10 to-teal-500/10"
   };
 
   return (

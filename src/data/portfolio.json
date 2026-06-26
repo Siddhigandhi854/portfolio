@@ -361,6 +361,38 @@
         "Enable multi-role portals (separate dashboards for Students, Faculty, and Admins)",
         "Implement secure PDF grade-report card auto-generation and email dispatch"
       ]
+    },
+    {
+      "id": "ai-financial-advisor",
+      "title": "AI Financial Advisor",
+      "shortDescription": "A sophisticated Streamlit-based AI financial advisory platform powered by Large Language Models to analyze portfolios, assess risk profiles, and provide personalized financial planning insights.",
+      "description": "Developed an interactive AI Financial Advisor platform using Streamlit and OpenAI/Gemini API. The system conducts personalized risk profile evaluations, analyzes spending patterns, suggests investment strategies, and provides conversational advice on budgeting, tax planning, and retirement goals using LLM prompt-engineering and RAG architectures.",
+      "image": "/projects/ai_financial_advisor.png",
+      "techStack": ["Streamlit", "Python", "Large Language Models", "OpenAI / Gemini API", "Pandas", "Matplotlib", "Data Analysis"],
+      "githubUrl": "https://github.com/Siddhigandhi854/",
+      "liveUrl": "https://ai-financial-advisor-mqpu.onrender.com/",
+      "problemStatement": [
+        "Financial Advice Gap: Millions of retail investors lack access to professional, fee-only financial planners for personalized asset allocation.",
+        "Siloed Financial Planning: Tracking expenses, evaluating risk tolerances, and mapping long-term investment goals are often spread across separate, complex tools.",
+        "Static General Advice: Existing web calculators offer rigid, generic percentage plans that fail to adapt to a user's unique local tax constraints or changing financial situations."
+      ],
+      "objectives": [
+        "AI-Driven Advisory Conversational Agent: Develop an intuitive, natural language interface capable of answering nuanced tax, budgeting, and investment questions.",
+        "Dynamic Risk-Based Asset Allocators: Calculate personalized model portfolios across equities, debt, and cash assets based on user risk profiles.",
+        "Interactive Financial Visualizations: Build responsive Streamlit graphs charting projected compound interest growths and expense breakdowns."
+      ],
+      "features": [
+        "Interactive Risk Profile Questionnaire calculating risk tolerance weights",
+        "AI Chatbot advisor offering contextual financial planning, budgeting, and investment suggestions",
+        "Compound Interest and Portfolio Growth projection calculators with dynamic sliders",
+        "Visual expense breakdown charts and asset allocation recommendations"
+      ],
+      "architecture": "Features a Python-based Streamlit single-page frontend. The backend handles interactive inputs, performs calculations using Pandas/NumPy, visualizes trends using Matplotlib/Seaborn, and routes conversation history to the Gemini/OpenAI API using custom context embeddings.",
+      "improvements": [
+        "Integrate Plaid or banking APIs to fetch real-time expense details automatically",
+        "Implement a portfolio tracker fetching live stock and mutual fund market prices",
+        "Add automated tax-loss harvesting recommendations based on regional tax laws"
+      ]
     }
   ],
   "certifications": [
