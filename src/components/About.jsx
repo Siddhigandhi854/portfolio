@@ -54,13 +54,13 @@ export default function About() {
           {/* Left Column: Biography */}
           <div className="lg:col-span-6 space-y-6">
             <p className="text-sm md:text-base text-slate-700 leading-relaxed font-sans">
-              I am an engineering undergraduate specializing in Artificial Intelligence and Machine Learning. My development journey is fueled by a passion for solving tangible problems through robust code, structured database design, and cloud efficiency.
+              I am a Computer Science Engineering undergraduate specializing in Artificial Intelligence and Machine Learning, driven by a passion for building innovative software solutions and solving real-world challenges through technology. My interests span Full Stack Development, Data Analytics, Data Engineering, Artificial Intelligence, and Cyber Security, where I enjoy creating practical, user-focused applications while continuously learning modern technologies.
             </p>
             <p className="text-sm md:text-base text-slate-700 leading-relaxed font-sans">
-              Over the last few years, I have built several projects ranging from MERN stack applications to machine learning data pipelines, cloud-native deployments on Azure, and immersive Unity AR experiences. I enjoy designing architectures that can scale seamlessly and remain secure.
+              Over the course of my academic journey, I have worked on a variety of projects, including MERN stack web applications, AI-powered platforms, augmented reality experiences, and data analysis solutions. Alongside these projects, I have strengthened my technical foundation through internships, hackathons, and professional certifications while developing strong problem-solving, communication, teamwork, and leadership skills that help me collaborate effectively in diverse environments.
             </p>
             <p className="text-sm md:text-base text-slate-700 leading-relaxed font-sans">
-              Beyond pure software engineering, I actively explore cybersecurity, ethical hacking, and data analytics. When I'm not coding, I'm usually reading novels, traveling to new destinations, or learning about advanced AI frameworks.
+              Beyond software development, I actively explore cloud technologies, data engineering, cybersecurity, and emerging AI innovations to broaden my technical expertise. When I'm not coding, I enjoy reading novels, traveling to new places, and discovering ideas that inspire creativity, continuous learning, and personal growth. My goal is to build impactful technology solutions while growing into a well-rounded Software Engineer who combines technical excellence with effective communication and collaboration.
             </p>
           </div>
 

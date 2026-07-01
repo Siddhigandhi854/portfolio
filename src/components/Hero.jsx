@@ -9,10 +9,12 @@ export default function Hero() {
   const { name, title, linkedin, github, leetcode, mslearn, credly, summary } = portfolioData.personal;
   
   const roles = [
+    "Software Engineer",
     "Full Stack Developer",
-    "Data Engineer",
     "Data Analyst",
-    "Cyber Security Enthusiast"
+    "Data Engineer",
+    "Problem Solver",
+    "Continuous Learner"
   ];
   
   const [roleIndex, setRoleIndex] = useState(0);

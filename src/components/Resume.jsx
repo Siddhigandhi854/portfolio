@@ -43,10 +43,10 @@ export default function Resume() {
         {/* Resume Document Sheet Container */}
         <div 
           id="resume-sheet"
-          className="w-full rounded-2xl border border-slate-200 bg-white shadow-xl relative overflow-hidden grid grid-cols-1 md:grid-cols-[30%_70%] print:grid-cols-[30%_70%] print:border-none print:shadow-none print:rounded-none min-h-[1120px] print:min-h-0"
+          className="w-full rounded-2xl border border-slate-200 bg-white shadow-xl relative overflow-hidden grid grid-cols-1 md:grid-cols-[30%_70%] print:grid-cols-[30%_70%] print:border-none print:shadow-none print:rounded-none min-h-0"
         >
           {/* Left Column: Sidebar (Dark background, white text) */}
-          <div className="bg-[#1E2433] text-white p-6 md:p-8 print:p-4 flex flex-col justify-between print:bg-[#1E2433] print:text-white">
+          <div className="bg-[#1E2433] text-white p-6 md:p-8 print:p-4 flex flex-col justify-start print:bg-[#1E2433] print:text-white">
             <div className="space-y-5 print:space-y-2.5">
               
               {/* Name & Title */}
@@ -210,7 +210,7 @@ export default function Resume() {
           </div>
 
           {/* Right Column: Content (White background, dark text) */}
-          <div className="bg-white text-slate-800 p-6 md:p-8 print:p-4 flex flex-col justify-between print:bg-white print:text-slate-800">
+          <div className="bg-white text-slate-800 p-6 md:p-8 print:p-4 flex flex-col justify-start print:bg-white print:text-slate-800">
             <div className="space-y-5 print:space-y-2.5">
               
               {/* Professional Summary */}
