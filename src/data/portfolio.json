@@ -548,6 +548,24 @@
       "link": "https://www.credly.com/go/AfveV4v9",
       "image": "/certs/aws_data_engineering_badge.png",
       "description": "Validates cloud data engineering skills, including data ingestion, automation, and warehousing services on AWS."
+    },
+    {
+      "name": "Oracle Certified Foundations Associate: Agentic AI Certified Foundations Associate",
+      "category": "AI & ML",
+      "issuer": "Oracle University",
+      "date": "2026",
+      "link": "",
+      "image": "/certs/oracle_agentic_ai.png",
+      "description": "Validates foundational knowledge of Agentic AI, AI agents, large language models (LLMs), RAG systems, and designing autonomous agentic workflows using Oracle Cloud Infrastructure AI services."
+    },
+    {
+      "name": "Copado Certified Copado AI",
+      "category": "AI & ML",
+      "issuer": "Copado",
+      "date": "2026",
+      "link": "",
+      "image": "/certs/copado_ai.png",
+      "description": "Demonstrates core knowledge of Copado AI technologies, automating Salesforce DevOps lifecycles, and integrating artificial intelligence into CI/CD release pipelines."
     }
   ],
   "achievements": [

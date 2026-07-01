@@ -260,6 +260,7 @@ export default function Resume() {
                   <li>Microsoft Azure Fundamentals (AZ-900) | Power Platform Fundamentals (PL-900) | Fabric Data Engineer Associate (DP-700)</li>
                   <li>NVIDIA CUDA C/C++ Fundamentals | NVIDIA CUDA Python Fundamentals</li>
                   <li>Google AI Essentials | Cisco Introduction to Cybersecurity</li>
+                  <li>Oracle Agentic AI Certified Foundations Associate | Copado Certified Copado AI</li>
                 </ul>
               </div>
 
