@@ -23,11 +23,11 @@ export default function Projects() {
   };
 
   return (
-    <section id="projects" className="py-24 bg-gradient-to-b from-[#FFF5F6] to-[#FAF6F0] relative">
+    <section id="projects" className="py-20 bg-gradient-to-b from-[#FFF5F6] to-[#FAF6F0] relative">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         
         {/* Section Header */}
-        <div className="flex flex-col items-start mb-16">
+        <div className="flex flex-col items-start mb-10">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-slate-900 tracking-tight">
             Featured Projects
           </h2>

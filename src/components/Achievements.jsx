@@ -95,11 +95,11 @@ export default function Achievements() {
   };
 
   return (
-    <section id="achievements" className="py-24 bg-gradient-to-b from-[#FFF9F2] to-[#FFFDF9] relative">
+    <section id="achievements" className="py-20 bg-gradient-to-b from-[#FFF9F2] to-[#FFFDF9] relative">
       <div className="max-w-4xl mx-auto px-6">
         
         {/* Section Header */}
-        <div className="flex flex-col items-center text-center mb-20">
+        <div className="flex flex-col items-center text-center mb-10">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-slate-900 tracking-tight">
             Achievements & Hackathons
           </h2>
@@ -107,7 +107,7 @@ export default function Achievements() {
         </div>
 
         {/* Timeline Grid */}
-        <div className="space-y-6">
+        <div className="space-y-4">
           {achievements.map((ach, idx) => {
             const config = getAchievementConfig(ach.title);
             const hasImage = !!ach.image;

@@ -37,11 +37,11 @@ export default function About() {
   ];
 
   return (
-    <section id="about" className="py-24 bg-gradient-to-b from-[#FFFFFF] to-[#E8E4FC] relative">
+    <section id="about" className="py-20 bg-gradient-to-b from-[#FFFFFF] to-[#E8E4FC] relative">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         
         {/* Section Header */}
-        <div className="flex flex-col items-start mb-16">
+        <div className="flex flex-col items-start mb-10">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-slate-900 tracking-tight">
             Background & Expertise
           </h2>

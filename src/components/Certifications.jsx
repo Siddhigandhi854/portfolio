@@ -224,11 +224,11 @@ export default function Certifications() {
   const centerTranslation = containerWidth / 2 - cardWidth / 2 - activeIndex * (cardWidth + gap);
 
   return (
-    <section id="certifications" className="py-24 bg-gradient-to-b from-[#FAF6F0] to-[#FFF9F2] relative overflow-hidden">
+    <section id="certifications" className="py-20 bg-gradient-to-b from-[#FAF6F0] to-[#FFF9F2] relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         
         {/* Section Header */}
-        <div className="flex flex-col items-start mb-16">
+        <div className="flex flex-col items-start mb-10">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-slate-900 tracking-tight">
             Certifications Gallery
           </h2>
@@ -237,7 +237,7 @@ export default function Certifications() {
 
         {/* Interactive Horizontal Carousel Track */}
         {certifications.length > 0 ? (
-          <div className="relative w-full mb-12" ref={containerRef}>
+          <div className="relative w-full mb-8" ref={containerRef}>
             
             {/* Navigation Arrows overlay */}
             <div className="absolute inset-y-0 left-0 right-0 flex items-center justify-between pointer-events-none z-20 px-2">

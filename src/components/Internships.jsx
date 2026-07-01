@@ -154,11 +154,11 @@ export default function Internships() {
   if (!internships || internships.length === 0) return null;
 
   return (
-    <section id="internships" className="py-24 bg-gradient-to-b from-[#FFF5F6] to-[#FFFBF7] relative overflow-hidden">
+    <section id="internships" className="py-20 bg-gradient-to-b from-[#FFF5F6] to-[#FFFBF7] relative overflow-hidden">
       <div className="max-w-6xl mx-auto px-6 relative z-10">
         
         {/* Section Header */}
-        <div className="flex flex-col items-center text-center mb-20">
+        <div className="flex flex-col items-center text-center mb-10">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-slate-900 tracking-tight">
             Internships
           </h2>

@@ -6,7 +6,7 @@ export default function Experience() {
   const { education } = portfolioData;
 
   return (
-    <section id="experience" className="pt-12 pb-20 bg-gradient-to-b from-[#FFF0F2] via-[#EBF4FF] via-[#F3E8FF] to-[#FFF5F6] relative overflow-hidden">
+    <section id="experience" className="pt-10 pb-16 bg-gradient-to-b from-[#FFF0F2] via-[#EBF4FF] via-[#F3E8FF] to-[#FFF5F6] relative overflow-hidden">
       {/* Decorative Glow Elements */}
       <div className="absolute top-1/4 left-10 w-72 h-72 bg-blue-300/10 rounded-full blur-[100px] pointer-events-none" />
       <div className="absolute bottom-1/4 right-10 w-72 h-72 bg-pink-300/10 rounded-full blur-[100px] pointer-events-none" />
@@ -14,7 +14,7 @@ export default function Experience() {
       <div className="max-w-4xl mx-auto px-6 relative z-10">
         
         {/* Section Header */}
-        <div className="flex flex-col items-center text-center mb-10">
+        <div className="flex flex-col items-center text-center mb-8">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-slate-900 tracking-tight">
             Education
           </h2>
@@ -25,7 +25,7 @@ export default function Experience() {
         </div>
 
         {/* Timeline container */}
-        <div className="relative border-l border-slate-200 pl-6 md:pl-10 space-y-12">
+        <div className="relative border-l border-slate-200 pl-6 md:pl-10 space-y-8">
           
           {education.map((edu, idx) => (
             <motion.div
@@ -67,7 +67,7 @@ export default function Experience() {
                 </p>
 
                 {/* Score & Minors Details */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6 pt-6 border-t border-slate-100 text-sm">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4 pt-4 border-t border-slate-100 text-sm">
                   {edu.minor && (
                     <div className="space-y-1">
                       <span className="text-xs font-mono text-slate-400">Minor Field</span>

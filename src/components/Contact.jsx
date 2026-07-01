@@ -18,7 +18,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-24 bg-gradient-to-b from-[#FFFBF5] to-[#F1F5F9] text-slate-800 relative overflow-hidden print:hidden">
+    <section id="contact" className="py-20 bg-gradient-to-b from-[#FFFBF5] to-[#F1F5F9] text-slate-800 relative overflow-hidden print:hidden">
       {/* Ambient glowing backdrops */}
       <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-80 h-80 bg-primary/5 rounded-full blur-[100px] pointer-events-none" />
       <div className="absolute bottom-0 right-10 w-96 h-96 bg-accent/5 rounded-full blur-[120px] pointer-events-none" />
