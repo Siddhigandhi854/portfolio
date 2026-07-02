@@ -566,6 +566,33 @@
       "link": "",
       "image": "/certs/copado_ai.png",
       "description": "Demonstrates core knowledge of Copado AI technologies, automating Salesforce DevOps lifecycles, and integrating artificial intelligence into CI/CD release pipelines."
+    },
+    {
+      "name": "Oracle Cloud Infrastructure Certified AI Foundations Associate",
+      "category": "AI & ML",
+      "issuer": "Oracle University",
+      "date": "2026",
+      "link": "",
+      "image": "/certs/oci_ai_foundations.png",
+      "description": "Validates foundational concepts of Artificial Intelligence, Machine Learning, Deep Learning, Generative AI, Large Language Models (LLMs), and implementing AI workloads on Oracle Cloud Infrastructure."
+    },
+    {
+      "name": "Oracle AI Database Certified Foundations Associate",
+      "category": "Databases",
+      "issuer": "Oracle University",
+      "date": "2026",
+      "link": "",
+      "image": "/certs/oracle_ai_database.png",
+      "description": "Validates understanding of database fundamentals, SQL, Relational Database Management Systems, and integrating Artificial Intelligence technologies to optimize and query Oracle databases."
+    },
+    {
+      "name": "Oracle Cloud Infrastructure Certified Foundations Associate",
+      "category": "Cloud",
+      "issuer": "Oracle University",
+      "date": "2026",
+      "link": "",
+      "image": "/certs/oci_foundations.png",
+      "description": "Covers core cloud concepts, OCI architecture, security, networking, compute, storage, databases, and governance models within Oracle Cloud Infrastructure."
     }
   ],
   "achievements": [

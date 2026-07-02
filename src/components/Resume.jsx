@@ -279,8 +279,8 @@ export default function Resume() {
                 <h3 className="text-xs print:text-[11px] font-display font-bold uppercase tracking-wider text-[#1E2433] border-b border-[#C5A880] pb-1 print:pb-0.5">
                   CERTIFICATIONS
                 </h3>
-                <ul className="list-disc pl-4 mt-2 print:mt-1 space-y-1 print:space-y-0.5 text-[10.5px] print:text-[8.5px] text-slate-700 leading-relaxed print:leading-snug font-sans">
-                  <li>Oracle Certified Foundation Associate – Oracle Agentic AI</li>
+                <ul className="list-disc pl-4 mt-2 print:mt-1 space-y-1 print:space-y-0.5 text-[10.5px] print:text-[8.5px] text-slate-700 leading-relaxed print:leading-snug font-sans font-normal">
+                  <li>Oracle Certified Foundations Associate: Agentic AI | OCI AI Foundations | OCI Foundations | AI Database</li>
                   <li>Copado AI Agent Certified</li>
                   <li>Microsoft Azure Fundamentals (AZ-900) | Power Platform Fundamentals (PL-900) | Fabric Data Engineer Associate (DP-700)</li>
                   <li>Google Cloud Generative AI Virtual Internship (Cohort 9) | Google AI-ML Virtual Internship (Cohort 15) | AWS Cloud Virtual Internship (Cohort 13) | AWS Data Engineering Virtual Internship (Cohort 14) | MERN Full Stack Development Virtual Internship + Project (Cohort 16)</li>
