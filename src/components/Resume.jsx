@@ -282,9 +282,9 @@ export default function Resume() {
                 <ul className="list-disc pl-4 mt-2 print:mt-1 space-y-1 print:space-y-0.5 text-[10.5px] print:text-[8.5px] text-slate-700 leading-relaxed print:leading-snug font-sans font-normal">
                   <li>Oracle Certified Foundations Associate: Agentic AI | OCI AI Foundations | OCI Foundations | AI Database</li>
                   <li>Copado AI Agent Certified</li>
-                  <li>Microsoft Azure Fundamentals (AZ-900) | Power Platform Fundamentals (PL-900) | Fabric Data Engineer Associate (DP-700)</li>
-                  <li>Google Cloud Generative AI Virtual Internship (Cohort 9) | Google AI-ML Virtual Internship (Cohort 15) | AWS Cloud Virtual Internship (Cohort 13) | AWS Data Engineering Virtual Internship (Cohort 14) | MERN Full Stack Development Virtual Internship + Project (Cohort 16)</li>
-                  <li>NVIDIA CUDA C/C++ Fundamentals | NVIDIA CUDA Python Fundamentals</li>
+                  <li>Microsoft Certified: Fabric Analytics Engineer Associate | Azure Fundamentals (AZ-900) | Power Platform (PL-900) | Fabric Data Engineer (DP-700) | Power BI Data Analyst</li>
+                  <li>Google Cloud Generative AI Virtual Internship (Cohort 9) | Google AI-ML (Cohort 15) | AWS Cloud (Cohort 13) | AWS Data Engineering (Cohort 14) | MERN Full Stack (Cohort 16)</li>
+                  <li>NVIDIA CUDA C/C++ Fundamentals | CUDA Python | Generative AI Essentials: Prompt Engineering</li>
                 </ul>
               </div>
 

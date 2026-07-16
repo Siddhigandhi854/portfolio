@@ -593,6 +593,33 @@
       "link": "",
       "image": "/certs/oci_foundations.png",
       "description": "Covers core cloud concepts, OCI architecture, security, networking, compute, storage, databases, and governance models within Oracle Cloud Infrastructure."
+    },
+    {
+      "name": "Microsoft Certified: Fabric Analytics Engineer Associate",
+      "category": "Cloud",
+      "issuer": "Microsoft",
+      "date": "2026",
+      "link": "",
+      "image": "/certs/fabric_analytics_engineer.png",
+      "description": "Validates proficiency in designing, building, and deploying data analytics solutions on Microsoft Fabric, including data ingestion, transformation, warehousing, and semantic modeling."
+    },
+    {
+      "name": "Microsoft Certified: Data Analyst Associate with Power BI",
+      "category": "Data Analytics",
+      "issuer": "Udemy / Maven Analytics",
+      "date": "2026",
+      "link": "https://ude.my/UC-96c726f1-fcf3-4899-a730-1ab7502428e0",
+      "image": "/certs/data_analyst_power_bi.png",
+      "description": "Validates skills in data preparation, data modeling, visualization, and analysis using Microsoft Power BI to extract business insights and drive data-informed decisions."
+    },
+    {
+      "name": "Generative AI Essentials: Prompt Engineering Masterclass",
+      "category": "AI & ML",
+      "issuer": "Udemy / Maven Analytics",
+      "date": "2026",
+      "link": "https://ude.my/UC-e69bfc33-f86e-44ee-809a-9f6bbdc25bbc",
+      "image": "/certs/prompt_engineering_masterclass.png",
+      "description": "Covers prompt engineering techniques, formatting outputs, context optimization, and utilizing generative AI models effectively for a variety of use cases."
     }
   ],
   "achievements": [
